@@ -1,16 +1,33 @@
 
+body {
+    margin: 0;
+    background: rgba(70, 131, 180, 0.404);
+}
+
+
 img {
+    background-color: rgb(9, 61, 95);
     width: 80%;
     display: block;
     margin: 0 auto;
+    padding: 25px;
+    border: 5px dashed slategray;
 }
 
 p {
     width: 80%;
+    margin: 50px;
+    background-color: rgb(9, 61, 95);
+    color: white;
+    padding: 15px;
+    border: 5px dashed slategray;
+
 }
 
 a {
     font-size: 1.5em;
+    color: white;
+    padding: 25px;
 }
 
 a:hover {
@@ -20,6 +37,12 @@ a:hover {
 
 h1 {
     text-align: center;
+    margin: 50px 0;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 25px;
 }
 
 nav, footer {
@@ -35,8 +58,14 @@ main p {
     text-align: center;
 }
 
+footer {
+    background-color: steelblue;
+    color: white;
+}
+
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 
