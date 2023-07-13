@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap" rel="stylesheet');
+
+body {
+    background-color: white;
+    font-family: Lora, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    background-color: #b8a4c9;
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+
+.logo {
+    width: 300px;
+}
+
+#logo_link {
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #545167;
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #E9B7CE;
+    color: white;
+}
+
+#home {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.home-title {
+    color: black;
+    font-family: "Dancing Script", cursive, sans-serif;
+    letter-spacing: 1px;
+    font-size: 4em;
+    margin-top: 5px;
+}
+
+.home-mission {
+    color: black;
+}
+
+
+#home-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+#home-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#home-msg h1, #home-msg h4 {
+    background-color:rgba(251, 251, 251, 0.521);
+    text-align: center;
+    grid-column: 2/3;
+}
+
+#ceo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.rafaela-ceo {
+    grid-column: 1/2;
+    
+}
+
+.rafaela-pic{
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    border: 5px solid #b8a4c9;
+    width: 100%;
+}
+
+.resume-click {
+    text-align: center;
+    text-decoration: none;
+    color: #545167;
+    display: block;
+    padding: 20px;
+}
+
+.resume-click:hover {
+    background-color: #E9B7CE;
+    color: white;
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.info {
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.info-company {
+    background-color: #E9B7CE;
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border:10px solid #E9B7CE;
+}
+
+.category {
+    margin: 10px;
+    padding: 20px;
+}
+
+.category h1 {
+    color: #b8a4c9;
+    font-family: "Dancing Script", cursive, sans-serif;
+    letter-spacing: 1px;
+    font-size: 5em;
+    margin: 5px;
+    text-align: center;
+
+}
+
+#proyects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.csr {
+    grid-column: 1/2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.active {
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rafting {
+    grid-column: 3/4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.proyect-img {
+    border: 15px solid #DFD1DD;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #D3F3F1; 
+    width: 450px;
+}
+
+.proyect-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #b8a4c9;
+    padding: 25px 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    background-color: #E9B7CE;
+    color: white;
+}
+
+.social {
+    width: 100px;
+    float: right;
+}
+
+.social:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#upper {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px 100px;
+    background-color: #E9B7CE;
+    color: #545167;
+}
+
+.request {
+    grid-column: 1/2;
+    text-align: left;
+    text-decoration: none;
+    color: #545167;
+    display: block;
+    padding: 20px;
+
+}
+
+#last {
+    display: grid;
+    grid-template-columns: 600px 1fr 200px;
+    color: #E9B7CE ;
+}
+.last-career {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    grid-column: 3/4;
+}
+
+#last p {
+    color: white;
+    grid-column: 1/2;
+}

@@ -125,9 +125,9 @@ main section img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: "Permanent Marker", "Papyrus", "Lucida Sans Typewriter";
-    letter-spacing: 6px;
+    letter-spacing: 2px;
     
 }
 

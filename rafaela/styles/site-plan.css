@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #b8a4c9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Dancing Script";
+  --heading-font: "Dancing Script", cursive, sans-serif;
   --paragraph-font: Lora, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
