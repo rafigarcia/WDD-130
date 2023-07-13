@@ -47,19 +47,21 @@ nav a:hover {
 #home {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 150px 1fr;
 }
 
 .home-title {
-    color: black;
+    color: #545167;
     font-family: "Dancing Script", cursive, sans-serif;
     letter-spacing: 1px;
-    font-size: 4em;
+    font-size: 6em;
     margin-top: 5px;
 }
 
 .home-mission {
-    color: black;
+    color: #545167;
+    font-family: Lora, Helvetica, sans-serif;
+    font-size: 1.8em;
 }
 
 
@@ -73,12 +75,12 @@ nav a:hover {
 #home-msg {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 50px;
+    margin-top: 25px;
     width: 100%;
 }
 
 #home-msg h1, #home-msg h4 {
-    background-color:rgba(251, 251, 251, 0.521);
+    background-color:rgba(251, 251, 251, 0.658);
     text-align: center;
     grid-column: 2/3;
 }
@@ -127,11 +129,12 @@ nav a:hover {
 .info-company {
     background-color: #E9B7CE;
     color: white;
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: center;
     margin: 10px;
     padding: 10px;
     border:10px solid #E9B7CE;
+    line-height: 2em;
 }
 
 .category {
@@ -139,7 +142,7 @@ nav a:hover {
     padding: 20px;
 }
 
-.category h1 {
+.category h2 {
     color: #b8a4c9;
     font-family: "Dancing Script", cursive, sans-serif;
     letter-spacing: 1px;
@@ -177,7 +180,7 @@ nav a:hover {
     border: 15px solid #DFD1DD;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #D3F3F1; 
-    width: 450px;
+    width: 100%;
 }
 
 .proyect-img:hover {
